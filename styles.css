@@ -1,0 +1,47 @@
+* {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+body {
+    font-size: medium;
+}
+
+.header {
+    height: 200px;
+    width: auto;
+}
+
+.recipe-header {
+    display: flex;
+    margin: 10px;
+}
+
+.desc {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.flex-header {
+    display:flex;
+    background-color: bisque;
+    gap: 5px;
+}
+
+.flex-title {
+    flex: 1;
+    background-color: beige;
+    padding: 4px;
+    margin: 10px;
+}
+
+#title {
+    flex: 2;
+}
+
+#menu {
+    text-align: right;
+    margin-left: -5px;
+}
+
+.gap {
+    margin: 20px;
+}
